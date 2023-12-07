@@ -1,10 +1,6 @@
-var j = 2;
-for (i = 0; i <= 10;)
-{
-    if (j > 0)
-    {
-        console.log("ok");
-        j = 5 - (j*2);
-    } 
-}
+const inputField = document.getElementById("input-tinggi")
 
+inputField.addEventListener('input', function(){
+    var textInput = inputField.value.trim()
+    console.log(textInput)
+})
