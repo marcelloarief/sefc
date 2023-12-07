@@ -1,7 +1,16 @@
+h1, h2 {
+    text-align: center;
+    color: #ececec;
+}
+label {
+    color: #ececec;
+}
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-family: sans-serif;
     text-shadow: 5px 5px 10px rgba(56, 81, 112, 0.4);
     color: #385170;
+    background-color: #142d4c;
 }
 
 .hitung {

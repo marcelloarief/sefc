@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Kalkulator Segitiga - Luas</title>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Kalkulator Segitiga - Luas</h1>
+        <form id="triangleForm">
+            <label for="base">Alas:</label>
+            <input type="number" id="base" required>
+
+            <label for="height">Tinggi:</label>
+            <input type="number" id="height" required>
+
+            <button type="button" onclick="calculateLuas()">Hitung Luas</button>
+        </form>
+
+        <div id="result" class="result">
+            <h2>Hasil Luas:</h2>
+            <p id="areaResult">Luas: </p>
+        </div>
+        <button onclick="window.location.href='index.html'">Kembali</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
